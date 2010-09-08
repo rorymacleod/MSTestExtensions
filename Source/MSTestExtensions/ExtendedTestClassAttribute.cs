@@ -10,18 +10,19 @@ namespace MSTestExtensions
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
     public class ExtendedTestClassAttribute : TestClassExtensionAttribute
     {
+        private const string ExtensionUriString = "urn:MSTestExtensions";
+
         public override Uri ExtensionId
         {
             get
             {
-                throw new NotImplementedException();
+                return new Uri(ExtensionUriString);
             }
         }
 
         public override TestExtensionExecution GetExecution()
         {
-            throw new NotImplementedException();
+            return new ExtendedExecution();
         }
-
     }
 }
