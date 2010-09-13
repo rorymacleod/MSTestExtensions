@@ -9,6 +9,12 @@ namespace MSTestExtensions
     {
         public override void Initialize(TestExecution execution)
         {
+            execution.AfterAssemblyInitialize += AssemblyInitialize;
+        }
+
+        private void AssemblyInitialize(object sender, AfterAssemblyInitializeEventArgs e)
+        {
+            
         }
 
         public override ITestMethodInvoker CreateTestMethodInvoker(TestMethodInvokerContext context)

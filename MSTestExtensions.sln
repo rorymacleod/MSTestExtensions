@@ -3,16 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTestExtensions", "Source\MSTestExtensions\MSTestExtensions.csproj", "{A67A94E9-60F1-4445-B032-8BFB0554B140}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTestExtensions.UnitTests.Base", "Source\MSTestExtensions.UnitTests.Base\MSTestExtensions.UnitTests.Base.csproj", "{6A226BF5-A95F-405A-BC68-BE5E528487CF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76600642-7A3A-4005-86D5-BED1945CBEAF}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
 		MSTestExtensions.vsmdi = MSTestExtensions.vsmdi
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTestExtensions.UnitTests.Impl", "Source\MSTestExtensions.UnitTests.Impl\MSTestExtensions.UnitTests.Impl.csproj", "{CCE1E3BC-16C1-4781-896D-71A53FD0006C}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -27,14 +23,6 @@ Global
 		{A67A94E9-60F1-4445-B032-8BFB0554B140}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A67A94E9-60F1-4445-B032-8BFB0554B140}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A67A94E9-60F1-4445-B032-8BFB0554B140}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A226BF5-A95F-405A-BC68-BE5E528487CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A226BF5-A95F-405A-BC68-BE5E528487CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A226BF5-A95F-405A-BC68-BE5E528487CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A226BF5-A95F-405A-BC68-BE5E528487CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCE1E3BC-16C1-4781-896D-71A53FD0006C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCE1E3BC-16C1-4781-896D-71A53FD0006C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCE1E3BC-16C1-4781-896D-71A53FD0006C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCE1E3BC-16C1-4781-896D-71A53FD0006C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,6 +20,11 @@ namespace MSTestExtensions
             }
         }
 
+        public override object GetClientSide()
+        {
+            return new ExtendedClientSide();
+        }
+
         public override TestExtensionExecution GetExecution()
         {
             return new ExtendedExecution();
